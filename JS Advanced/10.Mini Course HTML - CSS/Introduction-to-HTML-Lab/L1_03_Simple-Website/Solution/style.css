@@ -1,0 +1,41 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+}
+
+nav {
+    background: #234465;
+}
+
+nav ul {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background: #234465;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+}

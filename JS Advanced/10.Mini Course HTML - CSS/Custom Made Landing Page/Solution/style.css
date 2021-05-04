@@ -1,0 +1,50 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+body {
+    font-family: montserrat, Arial, sans-serif;
+    font-size: 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+body>header>div>img {
+    width: 134px;
+    height: 93px;
+    display: inline-block;
+    padding: 5px 50px 0 40px;
+    transform: translate(-51px, 10px);
+}
+
+nav {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 3px;
+    transform: translate(-2px, -28px);
+}
+
+li {
+    display: inline-block;
+}
+
+body>header>section>nav>ul {
+    margin: 5px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+body>header>section {
+    display: inline-block;
+}
+
+body>header>div {
+    display: inline-block
+}
+
+body>header>div.form-group>input {
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    transform: translate(-100%, -87%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(238, 226, 226);
+}
