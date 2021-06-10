@@ -34,7 +34,6 @@ function solve() {
         function onClickArchive() {
             const ol = document.querySelector('ol');
             createElement('li', p3.textContent, undefined, ol);
-
             article.parentNode.removeChild(article);
         }
     });
